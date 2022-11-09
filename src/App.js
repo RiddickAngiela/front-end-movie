@@ -4,12 +4,14 @@ import './App.css';
 import About from './components/About'
 import Description from './components/Description';
 import Footer from './components/Footer';
-import Footer from './components/MovieList';
+import MovieList from './components/MovieList';
 import Navbar from './components/Navbar'
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home'
 
 function App() {
+
+
 
   useEffect(() => {
     document.title = 'Movie-hub'
