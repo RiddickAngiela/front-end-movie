@@ -5,7 +5,7 @@ function Search({ onCategoryChange, onSearchChange, search }) {
   return (
     <div className='filter'>
       <input className='search' type='text' name='search' placeholder='Search by name' value={search} onChange={onSearchChange} />
-      <select name='sort' onChange={onCategoryChange}>
+      <select className='sort' onChange={onCategoryChange}>
         <option value='All'>All</option>
         <option value='horror'>Horror</option>
         <option value='Comedy'>Comedy</option>
