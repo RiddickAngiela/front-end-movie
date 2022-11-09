@@ -41,7 +41,7 @@
 /* Navbar */
 .navbar {
   background-color: #697184;
-  opacity: 0.2;
+  opacity: 0.7;
   height: 80px;
   width: 100%;
   display: flex;
@@ -108,4 +108,82 @@
 .nav-item .active {
   color: #ff0040;
   border: 1px solid #fff;
+}
+
+/* movie container */
+.moviecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+
+}
+
+.card {
+  margin: 100px 30px;
+  padding: 40px 60px;
+  box-shadow: 0 5px 10px -3px #999;
+  transition: 0.3s;
+  border-radius: 40px;
+
+
+}
+
+.card-elements {
+  color: #fff;
+}
+
+.card:hover {
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* search */
+
+.search {
+  border: 2px solid transparent;
+  width: 40%;
+  height: 30px;
+  margin-top: 120px;
+  margin-left: 30%;
+  margin-right: 3px;
+  outline: 2px solid black;
+  font-size: 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.sort {
+  height: 35px;
+}
+
+
+/* card btn */
+.card-btn {
+  background-color: #fff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+
+}
+
+.card-btn:hover {
+  background-color: #ff0040;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
