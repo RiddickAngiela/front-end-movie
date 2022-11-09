@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+#sm-cont{
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-around;
+  font-size: 20px;
+  
+}
+#footer-container {
+  background-color: black;
+  color:white;
+  height: 500px;
+
+}
+.card-des{
+  margin: 100px 450px;
+  padding: 50px 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 26px;
+}
+.card-des img{
+width: 350px;
+height: 450px;
+
+}
