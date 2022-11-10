@@ -16,7 +16,7 @@ function Moviecard({ movie }) {
         <h3 className='card-elements'>GENRE: {genre}</h3>
         <h4 className='card-elements'>RELEASE DATE :{date}</h4>
         <div className='buttons'>
-          <NavLink to={`/` + id} ><button className='card-btn'>See Reviews</button></NavLink>
+        
           <NavLink to={`/` + id} ><button className='card-btn'>Read Description</button></NavLink>
         </div>
 

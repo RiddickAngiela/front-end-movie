@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./components/share.png");
+   background-image: url("./components/share.png"); 
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   width: 100%;
   height: 90vh;
+  padding-top :0px;
+  
 }
 
 code {

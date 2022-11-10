@@ -8,6 +8,7 @@ import MovieList from './components/MovieList';
 import Navbar from './components/Navbar'
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home'
+import ReviewCard from './components/ReviewCard'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path={`/:id`} element={<ReviewCard />} /> */}
+         <Route path={`/:id/reviews`} element={<ReviewCard />} /> 
         <Route path={`/:id`} element={<Description />} />
         <Route path="/movies" element={<MovieList />} />
       </Routes>
